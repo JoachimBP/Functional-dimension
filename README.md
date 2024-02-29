@@ -33,4 +33,4 @@ This also shows that the complexity of the network, as measured by the batch fun
 
 We call this phenomenon **geometry-induced implict regularization**.
 
-The details of the theory and the experiments are in the article below.
+The details of the theory and the experiments are in the article above.
