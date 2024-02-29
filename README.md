@@ -1,7 +1,7 @@
 # Geometry-induced Implicit Regularization in Deep ReLU Neural Networks
 
 ## Description
-We call $f_\theta(X)\in{\mathbb R}^{n_L\times n}$ the prediction of a sample $X\in{\mathbb R}^{n_0\times n}$ made by a deep ReLU neural network of parameter $\theta$. For $X$ fixed, we study geometrical properties of the set { $f_\theta(X)$ | $\theta$ varies }  $\subset$ $\mathbb{R}^{n_L\times n}$.
+We call $f_\theta(X)\in{\mathbb R}^{n_L\times n}$ the prediction of a sample $X\in{\mathbb R}^{n_0\times n}$ made by a deep ReLU neural network of parameter $\theta$. For $X$ fixed, we study geometrical properties of the set {  $f_\theta(X)$  |  $\theta$ varies  }  $\subset$ $\mathbb{R}^{n_L\times n}$.
 
 We find that for almost all $\theta$, in the neiborhood of $f_\theta(X)$, the above set is a smooth manifold of fixed dimension. The dimension depends on $\theta$. It is called **batch functional dimension**.
 
