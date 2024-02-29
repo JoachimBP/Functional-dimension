@@ -1,5 +1,21 @@
 # Geometry-induced Implicit Regularization in Deep ReLU Neural Networks
 
+## Reference
+
+This repository contains the codes of the experiments in the article:
+
+*[Geometry-induced Implicit Regularization in Deep ReLU Neural Networks](https://arxiv.org/abs/2402.08269)*.
+
+When citing this work or results obtained with the codes, please cite
+
+@article{BonaPellissier-Malgouyres-Bachoc,
+  title={Geometry-induced Implicit Regularization in Deep ReLU Neural Networks},
+  author={ Bona-Pellissier, Joachim and  Malgouyres, Fran{\c{c}}ois and Bachoc, Fran{\c{c}}ois},
+  journal={arXiv preprint arXiv:2402.08269},
+  year={2024}
+}
+
+
 ## Description
 We call $f_\theta(X)\in{\mathbb R}^{n_L\times n}$ the prediction of a sample $X\in{\mathbb R}^{n_0\times n}$ made by a deep ReLU neural network of parameter $\theta$. For $X$ fixed, we study geometrical properties of the set {  $f_\theta(X)$  |  $\theta$ varies  }  $\subset$ $\mathbb{R}^{n_L\times n}$.
 
@@ -18,19 +34,3 @@ This also shows that the complexity of the network, as measured by the batch fun
 We call this phenomenon **geometry-induced implict regularization**.
 
 The details of the theory and the experiments are in the article below.
-
-## Reference
-
-This repository contains the codes of the experiments in the article:
-
-*[Geometry-induced Implicit Regularization in Deep ReLU Neural Networks](https://arxiv.org/abs/2402.08269)*.
-
-When citing this work or results obtained with the codes, please cite
-
-@article{BonaPellissier-Malgouyres-Bachoc,
-  title={Geometry-induced Implicit Regularization in Deep ReLU Neural Networks},
-  author={ Bona-Pellissier, Joachim and  Malgouyres, Fran{\c{c}}ois and Bachoc, Fran{\c{c}}ois},
-  journal={arXiv preprint arXiv:2402.08269},
-  year={2024}
-}
-
